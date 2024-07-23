@@ -55,7 +55,7 @@ xa.translate(0.2)
 ```bash
 xa.brighten(100)
 ```
-#### Apply rotation augmentation with a maximum rotation offset
+#### Apply rotation augmentation with a maximum rotation offset [ROTAITON NOT SUPPORTED AS OF VERSION 0.0.2]
 ```bash
 xa.rotate(45)
 ```
