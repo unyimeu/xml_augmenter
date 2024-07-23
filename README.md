@@ -9,7 +9,7 @@
 - **Visualize Annotations**: Display the annotated polygons and bounding boxes on the image.
 - **Brighten Images**: Randomly adjust the brightness of the image.
 - **Translate Images**: Randomly translate (shift) the image and update the annotations.
-- **Rotate Images**: Randomly rotate the image and update the annotations.
+- **Rotate Images**: Randomly rotate the image and update the annotations.[ROTATION NOT SUPPORTED YET VERSION<=0.0.2]
 
 ## Installation
 
