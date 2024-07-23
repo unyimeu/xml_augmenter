@@ -26,37 +26,47 @@ pip install xml_augmenter
 - OpenCV
 - NumPy
 
-##Example
+## Example
 
 #### Import necessary libraries
+```bash
 import cv2 as cv
 import xml.etree.ElementTree as ET
 import numpy as np
-
+```
 #### Define the path to your image and XML annotation file
+```bash
 impath = "path/to/your/image.jpg"
 anpath = "path/to/your/annotations.xml"
-
+```
 #### Create an instance of XML_Augment
+```bash
 xa = XML_Augment(anpath, impath)
-
+```
 #### Visualize annotations with custom text size
+```bash
 xa.visualize_annotaitons(text_size=0.3)
-
+```
 #### Apply translation augmentation with a maximum translation percent
+```bash
 xa.translate(0.2)
-
+```
 #### Apply brightness augmentation with a maximum brightness value
+```bash
 xa.brighten(100)
-
+```
 #### Apply rotation augmentation with a maximum rotation offset
+```bash
 xa.rotate(45)
-
+```
 #### Visualize annotations again after augmentations
+```bash
 xa.visualize_annotaitons(text_size=0.3)
-
+```
 #### Show the final image with augmentations
+```bash
 cv.imshow('image', xa.image)
 cv.waitKey()
 cv.destroyAllWindows()
+```
 
