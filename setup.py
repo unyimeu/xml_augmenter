@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="xml_augmenter",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
     install_requires=[
         "numpy==2.0.0",
