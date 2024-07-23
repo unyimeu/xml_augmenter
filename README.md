@@ -16,4 +16,5 @@
 To use this project, ensure you have the following libraries installed:
 
 ```bash
-pip install opencv-python numpy
+pip install xml_augmenter
+
